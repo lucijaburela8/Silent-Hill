@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>Zadaća 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
+
+           
+</head>
+
+<body>
+	<h1>SILENT HILL</h1>
+<p>Silent Hill je poznati serijal horor videoigara, a ujedno i izmišljeni grad u kojem se odvija radnja većine igara.</p>
+<p>Jedan od najpoznatijih i najutjecajnijih serijala u žanru survival horora.</p>
+<p>U maglom prekrivenom gradu Silent Hillu, ništa nije onako kako se čini.
+Svaki posjetitelj nosi vlastite tajne, a grad ih pretvara u noćne more.
+Tvoja potraga za nestalom osobom vodi te kroz napuštene škole, bolnice i ulice gdje stvarnost i halucinacija postaju jedno.
+
+Magla skriva istinu.</p>
+	
+	<section class="popisi">
+        <h2>INFO:</h2>
+        <ul>
+            <li><strong>objavljena</strong> – 1999. godine</li>
+            <li><strong>razvio</strong> – japanski studio Konami</li>
+            <li><strong>žanr</strong> – survival horror</li>
+            <li><strong>platforme</strong> – PlayStation, PC,Xbox...</li>
+            
+        </ul>
+
+	<h2>Najpoznatiji nastavci:</h2>
+        <ol>
+            <li><strong>Silent Hill (1999.)</strong> <em>- otac traži nestalu kćer</em></li>
+            <li><strong>Silent Hill <sup>2</sup> (2001.)</strong> <em>- muškarac prima pismo od pokojne supruge i odlazi u grad</em></li>
+			<li><strong>Silent Hill 3 (2003.)</strong> <em>- nastavak prve igre</em></li>
+            <li><strong>Silent Hill 4: The Room (2004.)</strong> <span class="posebno">- radnja se odvija u stanu koji postaje zatvor</span></li>
+        </ol>
+		</section>
+
+    <section class="znanstveni">
+        <h2>UKRATKO:</h2>
+        <p>
+            Silent Hill je serijal koji spaja strah, psihologiju i simboliku.
+Umjesto da plaši samo <em>čudovištima</em>, on istražuje <strong>ljudske misli</strong>, osjećaje i unutarnje demone.
+        </p>
+    </section>
+	
+	<h3>IZVJEŠĆE O NESTANKU:</h3>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Prijavitelj:</legend>
+
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" name="ime" placeholder="Upišite svoje ime" required>
+
+      <label for="email">Email adresa:</label>
+      <input type="email" id="email" name="email" placeholder="ime@primjer.com" required>
+
+      <label for="mjesto">Zadnje viđena lokacija:</label>
+<input id="mjesto" name="mjesto" list="mjesta" placeholder="Odaberite lokaciju">
+
+<datalist id="mjesta">
+  <option value="Osnovna škola Midwich"></option>
+  <option value="Bolnica Alchemilla"></option>
+  <option value="Lakeside zabavni park"></option>
+  <option value="Jezero Toluca"></option>
+</datalist>
+    </fieldset>
+	  
+	  <fieldset>
+      <legend>Nestala osoba:</legend>
+
+      <label for="datum">Datum nestanka:</label>
+      <input type="date" id="datum" name="datum">
+
+      <label for="opis">Opis događaja:</label>
+      <input type="text" id="opis" name="opis" placeholder="Opis događaja...">
+
+      <label for="razina">Razina opasnosti:</label>
+      <select id="razina" name="razina">
+        <option value="nisko">Niska</option>
+        <option value="umjereno">Umjerena</option>
+        <option value="visoko">Visoka</option>
+        <option value="nepoznato">Nepoznata</option>
+      </select>
+    </fieldset>
+
+    <button type="submit">Pošalji izvješće</button>
+  </form>
+	
+</body>
+
+	
+</html>
