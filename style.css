@@ -1,7 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
 
-  
         body {
             font-family: 'artifika', sans-serif;
             background-color: #131212;
@@ -167,4 +165,68 @@ h3 {
   color: #8F0002;
   font-size:50px;
 }
+
+h2.tab-naslov {
+  text-align: center;
+  color: #b30000;
+  text-shadow: 0 0 8px #660000;
+  font-size: 36px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 90%;
+  margin: 0 auto 50px auto;
+  border-collapse: collapse;
+  border: 2px solid #660000;
+  border-radius: 10px;
+  background-color: #1c1c1c;
+  color: #e6e6e6;
+  box-shadow: 0 0 20px rgba(102, 0, 0, 0.5);
+}
+
+thead th {
+  background-color: #660000;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #330000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #330000;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #2a2a2a;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #222;
+}
+
+tbody tr:hover {
+  background-color: #3b0000;
+  transition: 0.3s;
+}
+
+.posebno {
+  background-color: transparent; 
+  color: #b30000; 
+  font-weight: bold;
+}
+
+th:first-child,
+td:first-child {
+  border-left: none;
+}
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
 
