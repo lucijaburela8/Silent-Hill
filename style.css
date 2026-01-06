@@ -545,6 +545,7 @@ form:hover {
   box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
   transition: box-shadow 0.5s ease;
 }
+
 a:focus {
   outline: 2px solid #b30000;  
   outline-offset: 3px;          
@@ -552,4 +553,5 @@ a:focus {
   background-color: #33000020; 
   transition: all 0.3s ease;
 }
+
 
