@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body {
+        body {
             font-family: 'artifika', sans-serif;
             background-color: #131212;
             color: #8F0002;
@@ -424,3 +424,132 @@ h3 {
     border: 2px solid red;
     pointer-events: none;
 }
+
+a {
+  color: #cfcfcf;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: #ff3333;
+  text-shadow: 0 0 8px red;
+}
+
+a:active {
+  transform: scale(0.95);
+}
+
+button {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #8b0000;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: 2px solid red;
+  background-color: #111;
+  color: #fff;
+}
+
+.slika-igre,
+.wide-slika {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.slika-igre:hover,
+.wide-slika:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+.video-okvir iframe {
+  transition: transform 0.4s ease;
+}
+
+.video-okvir iframe:hover {
+  transform: scale(1.03);
+}
+
+.mapa-slika {
+  transition: transform 0.3s ease;
+}
+
+.mapa-slika:hover {
+  transform: scale(1.02);
+}
+
+input[type="date"]:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+  background-color: #0a0a0a;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+
+input:hover,
+select:hover {
+  border-color: #990000;
+  background-color: #151515;
+  transition: all 0.3s ease;
+}
+
+button {
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: #8b0000;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.92) rotate(-1deg);
+  box-shadow: 0 0 5px red;
+}
+
+a:hover {
+  color: #ff0000;
+  text-shadow:
+    0 0 5px red,
+    0 0 15px darkred;
+  transition: all 0.3s ease;
+}
+
+.slika-igre:hover,
+.wide-slika:hover,
+.mapa-slika:hover {
+  transform: scale(1.04) rotate(-0.5deg);
+  filter: contrast(120%) brightness(90%);
+  transition: all 0.4s ease;
+}
+
+form:hover {
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+  transition: box-shadow 0.5s ease;
+}
+a:focus {
+  outline: 2px solid #b30000;  
+  outline-offset: 3px;          
+  box-shadow: 0 0 8px #ff0000; 
+  background-color: #33000020; 
+  transition: all 0.3s ease;
+}
+
